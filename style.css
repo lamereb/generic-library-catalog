@@ -1,0 +1,62 @@
+body {
+  background: #ddf;
+  font: normal 14px verdana, arial, helvetica, sans-serif;
+}
+#home {
+  float: left;
+}
+#topbar {
+  padding-right: 20px;
+  text-align: right;
+  background-color: #bbf;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#books {
+  // styling for collection table
+}
+#patron-select {
+  float: right;
+}
+
+/* table styling adapted from http://icant.co.uk/csstablegallery/tables/99.php */
+table {
+  //background: #d3e4e5;
+  background: #bbf;
+  border:1px solid gray;
+  border-collapse: collapse;
+  //color: #fff;
+  font: normal 12px verdana, arial, helvetica, sans-serif;
+}
+td {
+  color: #363636;
+}
+td, th {
+  padding:.4em;
+}
+tr, td {
+  border:1px dotted gray;
+}
+tr:nth-of-type(2n) {
+  background:#d3e4e5;
+}
+thead { 
+  background:#5C443A;
+  color: #fff;
+  padding:3px 10px 3px 10px;
+  text-align:left;
+  text-transform:uppercase;
+}
+tbody tr:hover { 
+  background:#99BCBF;
+  border:1px solid #03476F;
+  color:#000000;
+}
+/* end table styling */
+
+label {
+  display: inline-block;
+  width: 120px;
+  //text-align: right;
+}
