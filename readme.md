@@ -11,7 +11,7 @@ There are 3 tiers of access to the page:
 
 New user-level accounts can be created by anyone.
 
-A live version of the site is hosted [here](http://web.engr.oregonstate.edu/~lamereb/lib) (and if you want to log in as an administrator there, since this is just a test site, I've set up what is pretty much the generic home-router login credentials to do so (should be easy to figure out). 
+A live version of the site is hosted [here](http://web.engr.oregonstate.edu/~lamereb/lib) (and if you want to log in as an administrator there, since this is just a test site, I've set up what is pretty much the generic home-router login credentials to do so (should be easy to figure out)). 
 
 For inserting book items in the catalog, the public [WorldCat xISBN API](http://xisbn.worldcat.org/xisbnadmin/doc/api.htm#getmetadata) has been implemented for retrieving book metadata (with regex matching on the ISBN number so that numbers can be just copy/pasted from other sources like Amazon).
 
